@@ -11,8 +11,8 @@ Downloading MKL: https://software.seek.intel.com/performance-libraries
 
 This should download a tar file with an installer. I am on Linux, so your experience may vary:
 
-- My home directory is `/home/barrymoo`, I place code in `/home/barrymoo/src` (probably a poor naming choice in this case)
-- From `/home/barrymoo/src`, `tar xvf ~/Downloads/l_mkl_2019.3.199_online.tgz` and `cd l_mkl_2019.3.199_online`
-- Run `./install.sh` and follow the prompts. I chose to install into `/home/bmooreii/src/mkl`
+- My home directory is `/home/chiroptical`, I place code in `/home/chiroptical/src` (probably a poor naming choice in this case)
+- From `/home/chiroptical/src`, `tar xvf ~/Downloads/l_mkl_2019.3.199_online.tgz` and `cd l_mkl_2019.3.199_online`
+- Run `./install.sh` and follow the prompts. I chose to install into `/home/chiroptical/src/mkl`
 
-Now you are ready to use MKL. See https://github.com/barrymoo/swift-mkl-daxpy for an example of using this library.
+Now you are ready to use MKL. See https://github.com/chiroptical/swift-mkl-daxpy for an example of using this library.
